@@ -1,0 +1,12 @@
+.header{
+    color: white;
+    background-color: rgb(148, 94, 14); 
+    text-align: center;
+    border: 1px solid rgb(148, 94,14)
+}
+
+body{
+    background-color: rgb(249, 209, 168);
+    line-height: 1.5;
+}
+

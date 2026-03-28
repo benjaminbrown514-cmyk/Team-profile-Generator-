@@ -79,6 +79,8 @@ Bash
 npm test
 All tests for Employee, Manager, Engineer, and Intern should pass with 100% coverage.
 
+url:(https://github.com/benjaminbrown514-cmyk/Team-profile-Generator-)
+
 Technical Specifications
 Directory Structure
 
@@ -99,6 +101,5 @@ Manager: officeNumber, getRole() (returns 'Manager')
 
 Engineer: github, getGithub(), getRole() (returns 'Engineer')
 
-url:
-
+](https://github.com/benjaminbrown514-cmyk/Team-profile-Generator-)
 Intern: school, getSchool(), getRole() (returns 'Intern')

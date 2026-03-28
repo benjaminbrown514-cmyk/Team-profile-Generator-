@@ -80,7 +80,7 @@ npm test
 All tests for Employee, Manager, Engineer, and Intern should pass with 100% coverage.
 
 url:(https://github.com/benjaminbrown514-cmyk/Team-profile-Generator-)
-
+(https://benjaminbrown514-cmyk.github.io/Team-profile-Generator-/)
 Technical Specifications
 Directory Structure
 

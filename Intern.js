@@ -1,45 +1,32 @@
-//const Employee = require("./employee");
+const Employee = require("./Employee");
 
-const inquirer = require('inquirer'); 
 
-const question = [
-    {
-        type:'input',
-        message: 'please provide your school:',
-        name: 'school',
-    },
 
-]
+class Intern extends Employee{
+    constructor(name, id , email, school){
 
- function generatePortfolio(){
-        inquirer 
-         .prompt(question)
-         .then((answer) => { 
-            retrieveAnswers(answer)
-        })
+        super(name, id, email)
+
+
+        this.school = school;
+
     }
+    
+    getSchool(){
+        return this.school
 
-    generatePortfolio()
+    }
+    getRole(){
+        return 'Intern'
+    }
+    
+}
+
+
     
 
-//class Intern extends Employee{
-    //constructor(school){
-        //this.school = school;
-
-    //}
-
-//}
-
-    //getSchool(){
-        
-
-    //}
-
-    //getRole(){
-
-    //}
+    
 
 
-//}
 
-//const Intern = new Intern(); 
+module.exports = Intern;

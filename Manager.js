@@ -1,35 +1,33 @@
-//const Employee = require("./employee");
+//***added by RB
+const Employee = require("./Employee"); //Name of file shold match - RB
 
-const inquirer = require('inquirer');
 
-const question = [
-    {
-        type: 'input',
-        message: 'please provide your office number:',
-        name: 'office number',
-    }
-]
 
-function generatePortfolio(){
-        inquirer 
-         .prompt(question)
-         .then((answer) => { 
-            retrieveAnswers(answer)
-        })
-    }
-
-    generatePortfolio()
     
 
-//class Manager extends Employee{
-    //constructor(officeNumber){
-            //this.officeNumber = officeNumber;
-    //}
+class Manager extends Employee{
+   
+    //***added by RB */
+    constructor(name, id, email, officeNum) {
 
-    //getRole(){
+        //superclass constructor
+        super(name, id, email);
 
-    //}
+        this.officeNumber = officeNum;
+    }
 
-//}
 
-//const Manager = new Manager(); 
+    getOfficeNumber(){
+        return this.officeNumber
+    }
+
+    getRole(){
+        return 'Manager'
+
+    }
+
+}
+
+
+//***added by RB
+module.exports = Manager; 

@@ -1,49 +1,33 @@
-//const Employee = require('./employee');
+const Employee = require('./Employee');
 
-const inquirer = require('inquirer');
+class Engineer extends Employee{
+    constructor(name ,  id, email, github){
 
-const questions = [
-    {
-        type: 'input',
-        message: 'Please provide name of your GitHub username:',
-        name: 'repo',
-    },
-]
+        super(name,id,email);
 
-function generatePortfolio(){
-    inquirer 
-         .prompt(questions)
-         .then((answer) => { 
-            retrieveAnswers(answer)
-        })
+        this.github = github; 
+
+        
     }
 
-generatePortfolio()
+    getGithub(){
+        return this.github
+
+    }
+
+    getRole(){
+        return 'Engineer'
+    }
+
+}
+
+
+
+module.exports = Engineer;
 
 
 
 
-
-
-//class Engineer extends Employee{
-    //constructor(github){
-        //this.github = github;
-    //}
-
-    //getGithub(){
-        
-
-    //}
-
-    //getRole(){
-
-    //}
-
-//}
-
-
-
-//const Engineer = new Engineer();
 
 
 

@@ -101,5 +101,11 @@ Manager: officeNumber, getRole() (returns 'Manager')
 
 Engineer: github, getGithub(), getRole() (returns 'Engineer')
 
-](https://github.com/benjaminbrown514-cmyk/Team-profile-Generator-)
+
 Intern: school, getSchool(), getRole() (returns 'Intern')
+
+mockup #
+![IMG_0193](https://github.com/user-attachments/assets/14b3055b-0e60-4855-ab31-952df3375913)
+
+
+

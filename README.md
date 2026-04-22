@@ -11,16 +11,6 @@ Installation
 
 Usage
 
-Walkthrough Video:
-
-
-
-
-
-
-
-
-
 Features
 
 Tests
